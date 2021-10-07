@@ -76,7 +76,9 @@ footer div {
 footer div a {
     color: #024e76;
 }
-
+section {
+    padding: 60px;
+}
 /* Hero style start */
 .hero {
     background-image:url("../images/hero-bg.jpg") ;
@@ -87,17 +89,13 @@ footer div a {
 }
 /* Hero style End */
 
-section {
-    padding: 60px;
-}
-
 .hero-form {
     color:#024e76;
     background-color:#fce138;
     padding:20px;
     width: 500px;
     position:absolute;
-    bottom: 95px;
+    bottom: 120px;
     right:140px;
     border: 3px solid #024e76
 
@@ -116,11 +114,14 @@ section {
     display: block;
     font-size: 16px;
     padding: 7px 15px;
-    width: 99%;
+    width: 100%;
     margin-bottom: 15px;
 }
+.hero-form label {
+    margin: 0 5px;
+}
 
-.button {
+.hero-form button {
     background-color:#024e76;
     color: #fce138;
     font-size: 16px;
@@ -189,5 +190,57 @@ section {
     font-size: 38px;
 }
 
+.trainers {
+    text-align: center;
+}
+.trainer {
+    text-align: center;
+    background-color: #024e76;
+    color:#fce138;
+    margin:0px auto 30px auto;
+    width: 900px;
+    overflow: auto;
+}
 
+.trainer img {
+    width:35%;
+    float: left;
+    
+}
+.trainer-bio {
+    padding:35px;
+    float: left;
+    width: 65%;
+}
+
+.trainer-bio1 {
+    float: right;
+    padding: 35px;
+    width: 65%;
+
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+    font-size: 24px;
+    font-weight:lighter;
+    margin-bottom: 25px;
+}
+
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+}
 
