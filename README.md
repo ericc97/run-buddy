@@ -5,7 +5,7 @@ A website that offers fitness and training services
 
 ## Built with 
 * HTML
-*CSS
+* CSS
 
 ## Website 
 https://ericc97.github.io/run-buddy/
