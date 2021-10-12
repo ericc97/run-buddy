@@ -48,14 +48,17 @@
         <form>
             <label for="name">Enter full name:</label>
             <input class="form-input"  type="text" placeholder="Enter Name" name="name" id="name" />
+
             <label for="email">Email Address:</label>
             <input class="form-input"  type="email" placeholder="Email Address" name="email" id="email" />
+
             <label for="phone number">Phone Number:</label>
             <input class="form-input"  type="tel" placeholder="Phone Number" id="phone number" name="phone number" />          
         <p>
           Have you worked out with a trainer before?
             <input type="radio" name="trainer-confrim" id="trainer-yes" />
             <label for="trainer-yes">Yes</label>
+
             <input type="radio" name="trainer-confrim" id="trainer-no" />
             <label for="trainer-no">No</label>
         </p>
@@ -77,82 +80,119 @@
 
     <!--"what we do" section-->
     <section id="what-we-do" class="intro">
+      <div class="flex-row">
         <h2 class="section-title primary-border">What We Do</h2> 
-        
+      </div>
+      <div class="flex-row">
         <p>
           Runkeeper tracks fitness activities such as walking, running and cycling using device's GPS sensor,[11] once an activity completed Runkeeper provides basic statistics of that activity. Periodically, Runkeeper offers Runkeeper Challenge which require completing defined workout within the time limit.
           Runkeeper offers premium subscription Runkeeper Go which provides more detailed statistics of the activity, performance comparison, training plans.
-
-        </p>    
+        </p> 
+      </div>   
     </section>
 
     <!--"what you do" section-->
-      <section id="what-you-do" class="steps">
-        
+    <section id="what-you-do" class="steps">
+      <div class=flex-row>
         <h2 class="section-title secondary-border">What You Do</h2>
-        <div>
+      </div>
         <!--insert SVG image-->
-          <img src="./assets/images/01-04-svgs/step-1.svg" alt="">
-          <h3>Step 1:<span>Fill Out The Form Above.</span></h3>
-          <p>You're already here, so why not?</p>
+      <div class="step">
+        <h3>Step 1.</h3>
+        <div class="step-info">
+          <div class="step-img">
+           <img src="./assets/images/01-04-svgs/step-1.svg" alt="">
+          </div>
+          <div class="step-text">
+           <h4>Fill Out The Form Above.</h4>
+           <p>You're already here, so why not?</p>
+          </div>
         </div>
+      </div>
 
-        <div>
-          <img src="./assets/images/01-04-svgs/step-2.svg" alt="">
-          <h3>Step 2:<span>Consut With One Of Our Trainers.</span></h3>
-          <p>Are you here to build muscle, lose weight, or just feel good?</p>
+      <div class="step">
+        <h3>Step 2.</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src="./assets/images/01-04-svgs/step-2.svg" alt="">
+          </div>
+          <div class="step-text">
+           <h4>Consut With One Of Our Trainers.</h4>
+           <p>Are you here to build muscle, lose weight, or just feel good?</p>
+          </div>
         </div>
-        <div>
-          <img src="./assets/images/01-04-svgs/step-3.svg" alt="">
-          <h3>Step 3:<span>Get Running.</span></h3>
-          <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+      </div>
+
+      <div class="step">
+        <h3>Step 3.</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src="./assets/images/01-04-svgs/step-3.svg" alt="">
+          </div>
+          <div class="step-text">
+            <h4>Get Running.</h4>
+            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+          </div>
         </div>
-        <div>
+      </div>
+
+      <div class="step">
+        <h3>Step 4.</h3>
+        <div class="step-info">
+         <div class="step-img">
           <img src="./assets/images/01-04-svgs/step-4.svg" alt="">
-          <h3>Step 4:<span>See Results.</span></h3>
-          <p>Bi-Weekly checkins with your trainer will keep you focused.</p>
+         </div>
+         <div class="step-text">
+           <h4>See Results.</h4>
+           <p>Bi-Weekly checkins with your trainer will keep you focused.</p>
+          </div>
         </div>
-      </section>
+      </div>
+    
+    </section>
 
     <!--"meet the trainers" section-->
-      <section id="your-trainers"class="trainers">
+    <section id="your-trainers">
+      <div class="flex-row">
         <h2 class="section-title primary-border">Meet The Trainers</h2>
-
+      </div>
+      <div class="trainers">
         <article class="trainer">
-          <img src="./assets/images/01-05-trainers/trainer-1.jpg" height="320px" alt="Arron Stephens profile picture">
-          <div class="trainer-bio text-left">
-            <h3>Arron Stephens</h3>
-            <h4>Speed / Strength</h4>
+          <img src="./assets/images/01-05-trainers/trainer-1.jpg"  alt="Arron Stephens profile picture">
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Arron Stephens</h3>
+            <h4 class="trainer-role">Speed / Strength</h4>
             <p>
               I care deeply about my clients, and there’s nothing of more value to me than helping somebody go through an experience that makes them happy, confident, and strong. I realize how being overweight affects many aspects of your life, and I want to be there for you and help you discover the benefits and joys of training that helped me become the person I am today. I’m here to be your personal guide on every step of the journey.
             </p>
           </div>
         </article>
         <article class="trainer">
-          <div class="trainer-bio text-right">
-            <h3>Joanna gill</h3>
-            <h4>Endurance</h4>
+          <img src="./assets/images/01-05-trainers/trainer-2.jpg"  alt="Joanna Gill profile picture">
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Joanna gill</h3>
+            <h4 class="trainer-role">Endurance</h4>
             <p>Ashley is an undergraduate student at Georgetown University. She became a National Academy of Sports Medicine (NASM) Certified Personal Trainer in 2019, and is currently working toward a specialization in corrective exercise. </p>
-            </div>
-            <img src="./assets/images/01-05-trainers/trainer-2.jpg"  alt="Joanna Gill profile picture">
-        </article>
-
-        <article class="trainer">
-          <img src="./assets/images/01-05-trainers/trainer-3.jpg" height="315px" alt="Harry The Headband profile picure">
-          <div class="trainer-bio text-left"></div>
-          <h3>Harry "The Headband" Smith</h3>
-          <h4>Strength</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-          </p>
           </div>
         </article>
-
-      </section>
+        <article class="trainer">
+          <img src="./assets/images/01-05-trainers/trainer-3.jpg"  alt="Harry The Headband profile picure">
+         <div class="trainer-bio">
+           <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+           <h4 class="trainer-role">Strength</h4>
+           <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+           </p>
+          </div>
+        </article>
+      </div>
+    </section>
 
     <!--"Reach out" section-->
     <section id="reach-out" class="contact">
+    <div class="flex-row">
       <h2 class=" section-title secondary-border">Reach Out</h2>
+    </div>
       <div class="contact-info">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.3194146676897!2d-109.55297254916492!3d38.57249167952199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8747e1ec1feb8259%3A0xf1551a8f94bdd004!2s55%20S%20Main%20St%2C%20Moab%2C%20UT%2084532!5e0!3m2!1sen!2sus!4v1633640645121!5m2!1sen!2sus"
            style="border:0;" 
