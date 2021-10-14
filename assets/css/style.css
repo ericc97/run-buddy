@@ -393,7 +393,6 @@ section {
         text-align: center;
     }
     
-    }
     .section-title {
         width: 80%;
     }
@@ -432,9 +431,8 @@ section {
         
     }
 
-    .steo-text {
+    .step-text {
         flex: 100%;
-    }
     }
 }
 @media screen and (max-width:575px){
