@@ -18,6 +18,14 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image:url("../images/hero-bg.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     
 
 }
@@ -26,7 +34,7 @@ header h1 {
     font-size: 36px;
     color:#fce138;
     margin: 0;
-   
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 }
 
@@ -52,6 +60,7 @@ header nav ul li a {
     margin: 0px 30px;
     font-weight: lighter;
     font-size: 1.5vw;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 footer {
@@ -87,13 +96,16 @@ section {
 }
 /* Hero style start */
 .hero {
-    background-image:url("../images/hero-bg.jpg") ;
-    background-size: cover;
-    background-position: center;
+    
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-image:url("../images/hero-bg.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     
    
 /* Fix .hero */
@@ -113,16 +125,18 @@ section {
     font-size: 55px;
     color: #fce138;
     font-style: italic;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .hero-form {
     color:#024e76;
-    background-color:#fce138;
+    background-color:rgba(252, 225, 56,80%);
     padding:20px;
     border: 3px solid #024e76;
     width: 40%;
     margin-bottom: 3.5%;
-
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
   
 }
 
@@ -142,6 +156,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     color:#024e76;
+    border-radius: 10px;
 }
 .hero-form label {
     margin: 0 5px;
@@ -153,6 +168,7 @@ section {
     font-size: 16px;
     border: none;
     padding: 10px 22px;
+    border-radius: 10px;
 }
 
 .section-title {
@@ -345,6 +361,7 @@ section {
     width: 100%;
     margin-bottom: 15;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -355,5 +372,6 @@ section {
     text-align: center;
     padding: 20px 0px;
     font-size: 16px;
+    border-radius: 10px;
 }
     
